@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Trevor Kulbeth</title>
+  <link rel="stylesheet" href="static/css/style.css" type="text/css" />
   <link rel="stylesheet" href="static/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -12,7 +13,6 @@
 <body>
     <div class="jumbotron" id="top-jumbotron" style="background-image: url(static/images/landscape2.jpg); background-size: cover;">
         <h1 class="display-3">Projects</h1>
-        <h3 class="subtitle">Data Analyst</h3>
       </div>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -34,98 +34,172 @@
     </div>
   </nav>
 <hr>
-  <div>
-      <h4 class="center">"When you are asked if you can do a job, tell 'em, 'certainly I can!' Then get busy and find out how to do it."</h4>
-      <h6 class="center">Theodore Roosevelt </h6>
-  </div>
+
+<div class="center">
+    <blockquote class="blockquote">
+      <h4 class="mb-0">"When you are asked if you can do a job, tell 'em, 'certainly I can!' Then get busy and find out how to do it."</h4>
+      <footer class="blockquote-footer">Theodore Roosevelt </footer>
+    </blockquote>
+</div>
 
 <hr>
 
   <div>
-    <h2>Project Gallery</h2>
+    <h2 class="center">Project Gallery</h2>
   </div>
   <br>
 
-  <!-- Links to accounts -->
-
-  <div class="card-deck">
-    <div class="card mb-6">
-      <div class="card-body">
-        <!-- <h4 class="card-title">Card title</h4>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-        <a href="https://public.tableau.com/profile/trevor.kulbeth#!/" class="center">
-          <img alt="Tableau Logo" src="static/images/Tableau-Logo.png" class="center" height="150px">
-          <br>
-          <p class="center">Click here to view my work in Tableau</p> 
-        </a>
-      </div>
+<!-- Links to accounts -->
+<div class="container-fluid">
+<div class="card-deck">
+<div class="card mb-6"">
+  <div class="card-body">
+    <!-- <h4 class="card-title">Card title</h4>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+    <a href="https://public.tableau.com/profile/trevor.kulbeth#!/" class="center">
+      <img alt="Tableau Logo" src="static/images/Tableau-Logo.png" class="center" height="150px">
+      <br>
+      <p class="center">Click here to view my work in Tableau</p> 
+    </a>
+  </div>
+</div>
+<div class="card mb-6">
+    <div class="card-body">
+      <!-- <h4 class="card-title">Card title</h4>
+      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+      <a href="https://public.tableau.com/profile/trevor.kulbeth#!/" class="center">
+        <img alt="GitHub Logo" src="static/images/github.png" height="150px">
+        <br>
+        <p class="center">Click here to view my work in GitHub</p> 
+      </a>
     </div>
-    <div class="card mb-6">
+  </div>
+</div>
+<div class="card-columns">  
+    <!-- Python Web Application Project -->
+    <div class="card mb-3">
+        <h3 class="card-header">Python Web Application</h3>
         <div class="card-body">
-          <!-- <h4 class="card-title">Card title</h4>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-          <a href="https://public.tableau.com/profile/trevor.kulbeth#!/" class="center">
-            <img alt="GitHub Logo" src="static/images/github.png" height="150px">
-            <br>
-            <p class="center">Click here to view my GitHub Profile</p> 
-          </a>
+          <h5 class="card-title">Music Industry/ Spotify Analysis</h5>
+          <h6 class="card-subtitle text-muted">Python/Tableau</h6>
         </div>
+        <img style="width: 100%; display: block;" src="static/images/Spotify_Analysis.PNG" alt="Card image">
+        <div class="card-body">
+          <p class="card-text">Developed a highly interactive dashboard showing the top 5 genres and 10 most popular songs by country, as an in-depth analysis of the music industry evolution in the last 46 years. </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <h5 class="card-title">Skills Used:</h5>
+          <li class="list-group-item">Tableau</li>
+          <li class="list-group-item">Python</li>
+          <li class="list-group-item">Flask</li>
+          <li class="list-group-item">Javascript</li>
+          <li class="list-group-item">D3</li>
+          <li class="list-group-item">HTML/CSS</li>
+        </ul>
+        <div class="card-body">
+          <a href="https://spotify-analysis-utbootcamp.herokuapp.com/" class="card-link">https://spotify-analysis-utbootcamp.herokuapp.com/</a>
+        </div>
+        <!-- <div class="card-footer text-muted">
+          1 month ago
+        </div> -->
       </div>
+      <!-- <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div> -->
 
-  <!-- Machine Learning Card -->
-  <div class="card-columns">
-      <div class="card mb-3">
-          <h3 class="card-header">Machine Learning</h3>
-          <div class="card-body">
-            <h4 class="card-title">Facial Recognition Project</h4>
-            <h6 class="card-subtitle text-muted">Gender Classification Through Facial Recongition</h6>
+      <!-- Machine Learning Card -->
+      
+          <div class="card mb-3">
+            <h3 class="card-header">Machine Learning</h3>
+            <div class="card-body">
+              <h4 class="card-title">Facial Recognition Project</h4>
+              <h6 class="card-subtitle text-muted">Gender Classification Through Facial Recongition</h6>
+            </div>
+            <img style="width: 100%; display: block;" src="static/images/faces2.png" alt="Card image">
+            <div class="card-body">
+              <p class="card-text">Implemented machine learning GUI interface to build a facial recognition application for classifying gender from user webcam and entered images.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <h5 class="card-title">Skills Used:</h5>
+              <li class="list-group-item">Keras</li>
+              <li class="list-group-item">Python</li>
+              <li class="list-group-item">Flask</li>
+              <li class="list-group-item">Javascript</li>
+              <li class="list-group-item">HTML/CSS</li>
+              <li class="list-group-item">Jupyter Notebook</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://github.com/tjkulbeth/MachineLearningGender.git" class="card-link">Git Hub link</a>
+            </div>
+            <!-- <div class="card-footer text-muted">
+              1 week ago
+            </div> -->
           </div>
-          <img style="width: 100%; display: block;" src="static/images/faces2.png" alt="Card image">
+
+      <!-- ETL Project -->
+      <div class="card mb-3">
+          <h3 class="card-header">Extract, Transform, Load (ETL) Project</h3>
           <div class="card-body">
-            <p class="card-text">Implemented machine learning GUI interface to build a facial recognition application for classifying gender from user webcam and entered images.</p>
+            <h5 class="card-title">Baby Names and Birthdates</h5>
+            <h6 class="card-subtitle text-muted">Trends in baby names and birthdays</h6>
+          </div>
+          <img style="width: 100%; display: block;" src="static/images/babypic2.png" alt="Card image">
+          <div class="card-body">
+            <p class="card-text">Performed extract, transform, load methodologies to generate datasets on birthdates and baby names to determine trends in number of births and popular names by year. </p>
           </div>
           <ul class="list-group list-group-flush">
             <h5 class="card-title">Skills Used:</h5>
-            <li class="list-group-item">Keras</li>
             <li class="list-group-item">Python</li>
-            <li class="list-group-item">Flask</li>
-            <li class="list-group-item">Javascript</li>
-            <li class="list-group-item">HTML/CSS</li>
+            <li class="list-group-item">Pandas Python Library</li>
+            <li class="list-group-item">SQL</li>
             <li class="list-group-item">Jupyter Notebook</li>
           </ul>
           <div class="card-body">
-            <a href="https://github.com/tjkulbeth/MachineLearningGender.git" class="card-link">Git Hub link</a>
+            <a href="https://github.com/tjkulbeth/ETL-Project.git" class="card-link">Git Hub link</a>
           </div>
           <!-- <div class="card-footer text-muted">
-            1 week ago
+            
           </div> -->
         </div>
+        <!-- <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div> -->
 
-        <!-- Python Web Application Project -->
+        <!-- NYC Citibike Tableau Project -->
         <div class="card mb-3">
-            <h3 class="card-header">Python Web Application</h3>
+            <h3 class="card-header">Tableau Storyboard</h3>
             <div class="card-body">
-              <h5 class="card-title">Music Industry/ Spotify Analysis</h5>
-              <h6 class="card-subtitle text-muted">Python/Tableau</h6>
+              <h5 class="card-title">NYC Citibike Analysis for 2019</h5>
+              <h6 class="card-subtitle text-muted">Support card subtitle</h6>
             </div>
-            <img style="width: 100%; display: block;" src="static/images/Spotify_Analysis.PNG" alt="Card image">
+            <img style="width: 100%; display: block;" src="static/images/NYC_Citibike.PNG" alt="Card image">
             <div class="card-body">
-              <p class="card-text">Developed a highly interactive dashboard showing the top 5 genres and 10 most popular songs by country, as an in-depth analysis of the music industry evolution in the last 46 years. </p>
+              <p class="card-text">Integrated 2019 ridership trip data from NYC CitiBike to create a responsive Tableau storyboard for analyzing trends in trips, rideshare growth, demographics, and system needs. </p>
             </div>
             <ul class="list-group list-group-flush">
               <h5 class="card-title">Skills Used:</h5>
               <li class="list-group-item">Tableau</li>
+              <li class="list-group-item">NYC CitiBike API</li>
               <li class="list-group-item">Python</li>
-              <li class="list-group-item">Flask</li>
-              <li class="list-group-item">Javascript</li>
-              <li class="list-group-item">D3</li>
-              <li class="list-group-item">HTML/CSS</li>
+              <li class="list-group-item">Pandas Python Library</li>
             </ul>
             <div class="card-body">
-              <a href="https://spotify-analysis-utbootcamp.herokuapp.com/" class="card-link">https://spotify-analysis-utbootcamp.herokuapp.com/</a>
+              <a href="https://public.tableau.com/profile/trevor.kulbeth#!/vizhome/NYCTripDataInsights/NYCCitibikeAnalysisfor2019" class="card-link">Tableau Public link</a>
             </div>
             <!-- <div class="card-footer text-muted">
-              1 month ago
+              2 days ago
             </div> -->
           </div>
           <!-- <div class="card">
@@ -137,30 +211,32 @@
               <a href="#" class="card-link">Another link</a>
             </div>
           </div> -->
-
-          <!-- ETL Project -->
+          
+          <!-- Property Values and Diversity in the City of Austin -->
           <div class="card mb-3">
-              <h3 class="card-header">Extract, Transform, Load (ETL) Project</h3>
+              <h3 class="card-header">Python/ Jupyter Notebook Project</h3>
               <div class="card-body">
-                <h5 class="card-title">Baby Names and Birthdates</h5>
-                <h6 class="card-subtitle text-muted">Trends in baby names and birthdays</h6>
+                <h5 class="card-title">Property Value & Diversity in Austin</h5>
+                <h6 class="card-subtitle text-muted">Trends in Property Values through the demographic of Ethnic Diversity in Austin, Texas  </h6>
               </div>
-              <img style="width: 100%; display: block;" src="static/images/babypic2.png" alt="Card image">
+              <!-- <img style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22318%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20318%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_158bd1d28ef%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A16pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_158bd1d28ef%22%3E%3Crect%20width%3D%22318%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22129.359375%22%20y%3D%2297.35%22%3EImage%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image"> -->
               <div class="card-body">
-                <p class="card-text">Performed extract, transform, load methodologies to generate datasets on birthdates and baby names to determine trends in number of births and popular names by year. </p>
+                <p class="card-text">Analysis of observable trends in racial diversity by property values in zip codes within the Austin, TX city limits and the surrounding area. </p>
               </div>
               <ul class="list-group list-group-flush">
                 <h5 class="card-title">Skills Used:</h5>
                 <li class="list-group-item">Python</li>
-                <li class="list-group-item">Pandas Python Library</li>
-                <li class="list-group-item">SQL</li>
                 <li class="list-group-item">Jupyter Notebook</li>
+                <li class="list-group-item">Pandas Python Library</li>
+                <li class="list-group-item">Matplotlib Python Library</li>
+                <li class="list-group-item">Folium Python Library</li>
+                <li class="list-group-item">Github</li>
               </ul>
               <div class="card-body">
-                <a href="https://github.com/tjkulbeth/ETL-Project.git" class="card-link">Git Hub link</a>
+                  <a href="https://github.com/tjkulbeth/Property-Values-and-Diversity-of-Austin.git" class="card-link">Git Hub link</a>
               </div>
               <!-- <div class="card-footer text-muted">
-                
+                2 days ago
               </div> -->
             </div>
             <!-- <div class="card">
@@ -168,117 +244,40 @@
                 <h4 class="card-title">Card title</h4>
                 <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+                <a href="https://github.com/tjkulbeth/Property-Values-and-Diversity-of-Austin.git" class="card-link">Git Hub link</a>
               </div>
             </div> -->
-
-            <!-- NYC Citibike Tableau Project -->
-            <div class="card mb-3">
-                <h3 class="card-header">Tableau Storyboard</h3>
-                <div class="card-body">
-                  <h5 class="card-title">NYC Citibike Analysis for 2019</h5>
-                  <h6 class="card-subtitle text-muted">Support card subtitle</h6>
-                </div>
-                <img style="width: 100%; display: block;" src="static/images/NYC_Citibike.PNG" alt="Card image">
-                <div class="card-body">
-                  <p class="card-text">Integrated 2019 ridership trip data from NYC CitiBike to create a responsive Tableau storyboard for analyzing trends in trips, rideshare growth, demographics, and system needs. </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <h5 class="card-title">Skills Used:</h5>
-                  <li class="list-group-item">Tableau</li>
-                  <li class="list-group-item">NYC CitiBike API</li>
-                  <li class="list-group-item">Python</li>
-                  <li class="list-group-item">Pandas Python Library</li>
-                </ul>
-                <div class="card-body">
-                  <a href="https://public.tableau.com/profile/trevor.kulbeth#!/vizhome/NYCTripDataInsights/NYCCitibikeAnalysisfor2019" class="card-link">Tableau Public link</a>
-                </div>
-                <!-- <div class="card-footer text-muted">
-                  2 days ago
-                </div> -->
+                          <!-- Property Values and Diversity in the City of Austin -->
+          <div class="card mb-3">
+              <h3 class="card-header">Microsoft Access/ SQL</h3>
+              <div class="card-body">
+                <h5 class="card-title">Plant Material Database</h5>
+                <h6 class="card-subtitle text-muted">Propietary Data and Inventory Management Tool for the USFS </h6>
               </div>
-              <!-- <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Card title</h4>
-                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
-                </div>
+              <img style="width: 100%; display: block;" src="static/images/plants_db_main.PNG" alt="Card image">
+              <div class="card-body">
+                <p class="card-text">Developed a sophisticated database and inventory numbering system for small to medium office operations improving inventory and data management capabilities by over 50%.  </p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <h5 class="card-title">Skills Used:</h5>
+                <li class="list-group-item">SQL</li>
+                <li class="list-group-item">Microsoft Access</li>
+                <li class="list-group-item">Microsoft Excel</li>
+                <li class="list-group-item">Visual Basic for Applications (VBA)</li>
+                <li class="list-group-item">Microsoft Sharepoint Web Server</li>
+                <li class="list-group-item">USFS Seed Collections Database</li>
+              </ul>
+              <!-- <div class="card-body">
+                  <a href="https://github.com/tjkulbeth/Property-Values-and-Diversity-of-Austin.git" class="card-link">Git Hub link</a>
               </div> -->
-              
-              <!-- Property Values and Diversity in the City of Austin -->
-              <div class="card mb-3">
-                  <h3 class="card-header">Python/ Jupyter Notebook Project</h3>
-                  <div class="card-body">
-                    <h5 class="card-title">Property Value & Diversity in Austin</h5>
-                    <h6 class="card-subtitle text-muted">Trends in Property Values through the demographic of Ethnic Diversity in Austin, Texas  </h6>
-                  </div>
-                  <!-- <img style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22318%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20318%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_158bd1d28ef%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A16pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_158bd1d28ef%22%3E%3Crect%20width%3D%22318%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22129.359375%22%20y%3D%2297.35%22%3EImage%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image"> -->
-                  <div class="card-body">
-                    <p class="card-text">Analysis of observable trends in racial diversity by property values in zip codes within the Austin, TX city limits and the surrounding area. </p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <h5 class="card-title">Skills Used:</h5>
-                    <li class="list-group-item">Python</li>
-                    <li class="list-group-item">Jupyter Notebook</li>
-                    <li class="list-group-item">Pandas Python Library</li>
-                    <li class="list-group-item">Matplotlib Python Library</li>
-                    <li class="list-group-item">Folium Python Library</li>
-                    <li class="list-group-item">Github</li>
-                  </ul>
-                  <div class="card-body">
-                      <a href="https://github.com/tjkulbeth/Property-Values-and-Diversity-of-Austin.git" class="card-link">Git Hub link</a>
-                  </div>
-                  <!-- <div class="card-footer text-muted">
-                    2 days ago
-                  </div> -->
-                </div>
-                <!-- <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Card title</h4>
-                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="https://github.com/tjkulbeth/Property-Values-and-Diversity-of-Austin.git" class="card-link">Git Hub link</a>
-                  </div>
-                </div> -->
-                              <!-- Property Values and Diversity in the City of Austin -->
-              <div class="card mb-3">
-                  <h3 class="card-header">Microsoft Access/ SQL</h3>
-                  <div class="card-body">
-                    <h5 class="card-title">Plant Material Database</h5>
-                    <h6 class="card-subtitle text-muted">Propietary Data and Inventory Management Tool for the USFS </h6>
-                  </div>
-                  <img style="width: 100%; display: block;" src="static/images/plants_db_main.PNG" alt="Card image">
-                  <div class="card-body">
-                    <p class="card-text">Developed a sophisticated database and inventory numbering system for small to medium office operations improving inventory and data management capabilities by over 50%.  </p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <h5 class="card-title">Skills Used:</h5>
-                    <li class="list-group-item">SQL</li>
-                    <li class="list-group-item">Microsoft Access</li>
-                    <li class="list-group-item">Microsoft Excel</li>
-                    <li class="list-group-item">Visual Basic for Applications (VBA)</li>
-                    <li class="list-group-item">Microsoft Sharepoint Web Server</li>
-                    <li class="list-group-item">USFS Seed Collections Database</li>
-                  </ul>
-                  <!-- <div class="card-body">
-                      <a href="https://github.com/tjkulbeth/Property-Values-and-Diversity-of-Austin.git" class="card-link">Git Hub link</a>
-                  </div> -->
-                  <!-- <div class="card-footer text-muted">
-                    2 days ago
-                  </div> -->
-                </div>
-              </div>
-      </div>
-    </div>
-          
-        </div>
-      </div>
-    </div>
+              <!-- <div class="card-footer text-muted">
+                2 days ago
+              </div> -->
+            </div>
+          </div>
   </div>
- 
+</div>
+
   <footer class="center">
     <hr>
     <span>&copy; Trevor Kulbeth 2019</span>
