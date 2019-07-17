@@ -34,6 +34,10 @@ img {
   max-width: 100%;
 }
 
+card.md-6 {
+  margin: 0px 15px 16px 15px;
+}
+
 hr {
   border-top: 1px solid #ccc;
   border-bottom: none;
