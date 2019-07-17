@@ -155,6 +155,10 @@ footer hr {
   *zoom: 1;
 }
 
+#image {
+  align-content: center;
+}
+
 .grid-1,
 .grid-2,
 .grid-3,
