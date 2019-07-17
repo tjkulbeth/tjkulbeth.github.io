@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="jumbotron" style="background-image: url(static/images/landscape2.jpg); background-size: cover;">
+    <div class="jumbotron" id="top-jumbotron" style="background-image: url(static/images/landscape2.jpg); background-size: cover;">
         <h1 class="display-3">Projects</h1>
         <h3 class="subtitle">Data Analyst</h3>
       </div>
@@ -28,16 +28,17 @@
         <li class="nav-item active">
           <a class="nav-link" href="projects.html">Projects</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contactus.html">Contact Information</a>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="contactus.html">Contact Information</a> -->
       </ul>
     </div>
   </nav>
 <hr>
-  <blockquote class="blockquote">
-    <h4 class="mb-0">"When you are asked if you can do a job, tell 'em, 'certainly I can!' Then get busy and find out how to do it."</h4>
-    <footer class="blockquote-footer">Theodore Roosevelt </footer>
-  </blockquote>
+  <div>
+      <h4 class="center">"When you are asked if you can do a job, tell 'em, 'certainly I can!' Then get busy and find out how to do it."</h4>
+      <h6 class="center">Theodore Roosevelt </h6>
+  </div>
+
 <hr>
 
   <div>
@@ -53,9 +54,9 @@
         <!-- <h4 class="card-title">Card title</h4>
         <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
         <a href="https://public.tableau.com/profile/trevor.kulbeth#!/" class="center">
-          <img alt="Tableau Logo" src="static/images/Tableau-Logo.png" width="100%">
+          <img alt="Tableau Logo" src="static/images/Tableau-Logo.png" class="center" height="150px">
           <br>
-          Click here to view my work in Tableau
+          <p class="center">Click here to view my work in Tableau</p> 
         </a>
       </div>
     </div>
@@ -64,9 +65,9 @@
           <!-- <h4 class="card-title">Card title</h4>
           <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
           <a href="https://public.tableau.com/profile/trevor.kulbeth#!/" class="center">
-            <img alt="GitHub Logo" src="static/images/github.png" width="100%">
+            <img alt="GitHub Logo" src="static/images/github.png" height="150px">
             <br>
-            Click here to view my GitHub Profile
+            <p class="center">Click here to view my GitHub Profile</p> 
           </a>
         </div>
       </div>
@@ -84,7 +85,7 @@
             <p class="card-text">Implemented machine learning GUI interface to build a facial recognition application for classifying gender from user webcam and entered images.</p>
           </div>
           <ul class="list-group list-group-flush">
-            <h3>Skills Used:</h3>
+            <h5 class="card-title">Skills Used:</h5>
             <li class="list-group-item">Keras</li>
             <li class="list-group-item">Python</li>
             <li class="list-group-item">Flask</li>
@@ -112,7 +113,7 @@
               <p class="card-text">Developed a highly interactive dashboard showing the top 5 genres and 10 most popular songs by country, as an in-depth analysis of the music industry evolution in the last 46 years. </p>
             </div>
             <ul class="list-group list-group-flush">
-              <h3>Skills Used:</h3>
+              <h5 class="card-title">Skills Used:</h5>
               <li class="list-group-item">Tableau</li>
               <li class="list-group-item">Python</li>
               <li class="list-group-item">Flask</li>
@@ -149,7 +150,7 @@
                 <p class="card-text">Performed extract, transform, load methodologies to generate datasets on birthdates and baby names to determine trends in number of births and popular names by year. </p>
               </div>
               <ul class="list-group list-group-flush">
-                <h3>Skills Used:</h3>
+                <h5 class="card-title">Skills Used:</h5>
                 <li class="list-group-item">Python</li>
                 <li class="list-group-item">Pandas Python Library</li>
                 <li class="list-group-item">SQL</li>
@@ -184,7 +185,7 @@
                   <p class="card-text">Integrated 2019 ridership trip data from NYC CitiBike to create a responsive Tableau storyboard for analyzing trends in trips, rideshare growth, demographics, and system needs. </p>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <h3>Skills Used:</h3>
+                  <h5 class="card-title">Skills Used:</h5>
                   <li class="list-group-item">Tableau</li>
                   <li class="list-group-item">NYC CitiBike API</li>
                   <li class="list-group-item">Python</li>
@@ -219,7 +220,7 @@
                     <p class="card-text">Analysis of observable trends in racial diversity by property values in zip codes within the Austin, TX city limits and the surrounding area. </p>
                   </div>
                   <ul class="list-group list-group-flush">
-                    <h3>Skills Used:</h3>
+                    <h5 class="card-title">Skills Used:</h5>
                     <li class="list-group-item">Python</li>
                     <li class="list-group-item">Jupyter Notebook</li>
                     <li class="list-group-item">Pandas Python Library</li>
@@ -254,7 +255,7 @@
                     <p class="card-text">Developed a sophisticated database and inventory numbering system for small to medium office operations improving inventory and data management capabilities by over 50%.  </p>
                   </div>
                   <ul class="list-group list-group-flush">
-                    <h3>Skills Used:</h3>
+                    <h5 class="card-title">Skills Used:</h5>
                     <li class="list-group-item">SQL</li>
                     <li class="list-group-item">Microsoft Access</li>
                     <li class="list-group-item">Microsoft Excel</li>
@@ -262,9 +263,9 @@
                     <li class="list-group-item">Microsoft Sharepoint Web Server</li>
                     <li class="list-group-item">USFS Seed Collections Database</li>
                   </ul>
-                  <div class="card-body">
+                  <!-- <div class="card-body">
                       <a href="https://github.com/tjkulbeth/Property-Values-and-Diversity-of-Austin.git" class="card-link">Git Hub link</a>
-                  </div>
+                  </div> -->
                   <!-- <div class="card-footer text-muted">
                     2 days ago
                   </div> -->

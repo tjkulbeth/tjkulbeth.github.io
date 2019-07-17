@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Resume</title>
+	<title>Trevor Kulbeth</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<!--Custom fonts. To improve load times, remove this and update the h1 styling in style.css--> 
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
@@ -20,7 +20,7 @@
 <body>
 	
 	<!-- Header-->
-	<div class="jumbotron" style="background-image: url(static/images/landscape2.jpg); background-size: cover;">
+	<div class="jumbotron" id="top-jumbotron" style="background-image: url(static/images/landscape2.jpg); background-size: cover;">
 			<h1 class="display-3">Trevor Kulbeth</h1>
 			<h3 class="subtitle">Data Analyst</h3>
 			<!-- <h6 class="contact_info">Contact Info:</h6>
@@ -42,41 +42,43 @@
                     <li class="nav-item">
                       <a class="nav-link" href="projects.html">Projects</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contactus.html">Contact Information</a>
+                    <!-- <li class="nav-item">
+                      <a class="nav-link" href="contactus.html">Contact Information</a> -->
                   </ul>
                 </div>
               </nav>
 
+	<br>
+	
 	<div class="container">
 		
+		<!-- Gallery Block-->
+		<section class="gallery">
+				<!-- <h1 class="center">Gallery</h1> -->
+				<div class="row">
+					<img src="static/images/trevor_new.jpg" class="grid-2" id="image">
+					<!-- <a href="#"><img src="img/re.png" class="grid-2"></a>
+					<a href="#"><img src="img/re.png" class="grid-2"></a>
+					<a href="#"><img src="img/re.png" class="grid-2"></a>
+					<a href="#"><img src="img/re.png" class="grid-2"></a>
+					<a href="#"><img src="img/re.png" class="grid-2"></a> -->
+				</div>
+			</section>
+			
+		<hr>
+
 		<!-- Introduction-->
 		<section class="center">
 			<h1>Welcome!</h1>
 			<p>
-					Experienced data analyst armed with strong knowledge in programming tools such as Python, SQL, HTML, and JavaScript, 
+					I am an experienced data analyst armed with strong knowledge in programming tools such as Python, SQL, HTML, and JavaScript, 
 					in visualization tools such as Tableau and D3, and in ETL and data modeling workflows. 
-					Passionate about teamwork and leading small teams to reach project goals with solid results. 
-					Proven skills in developing proprietary data-based solutions in business administration and operations. 
+					Passionate about teamwork and leading small teams to reach project goals with solid results 
+					with proven skills in developing proprietary data-based solutions in business administration and operations. 
 					Driven to provide valuable insights through data.
 			</p>
 		</section>
-		
-		<hr>
-		
-		<!-- Gallery Block-->
-		<section class="gallery">
-			<h1 class="center">Gallery</h1>
-			<div class="row">
-				<a href="#"><img src="static/images/trevor_new.jpg" class="grid-2" id="image"></a>
-				<!-- <a href="#"><img src="img/re.png" class="grid-2"></a>
-				<a href="#"><img src="img/re.png" class="grid-2"></a>
-				<a href="#"><img src="img/re.png" class="grid-2"></a>
-				<a href="#"><img src="img/re.png" class="grid-2"></a>
-				<a href="#"><img src="img/re.png" class="grid-2"></a> -->
-			</div>
-		</section>
-		
+	
 		<hr>
 		
 		<!-- Testimonials-->	
@@ -84,7 +86,8 @@
 			<div class="row">
 				<div class="grid-2">
 					<img src="static/images/Eric_Staveley.jfif">
-					<h2>Eric Staveley</h2>
+					<br>
+					<h3>Eric Staveley</h3>
 					<hr>
 					<p>Trevor is amazing at going the "extra yard" to make our software projects utilize the more advanced features just recently taught to us. 
 						While many Developers would simply get the basics done, Trevor will dig deep into the lectures and documentation to find the "wrapper" or the "function" that we can re-use, to make our code much more efficient. 
@@ -93,31 +96,42 @@
 				
 				<div class="grid-2">
 					<img src="static/images/Billy_Zhao.jfif">
-					<h2>Wenbin "Billy" Zhao</h2>
+					<br>
+					<h3>Wenbin "Billy" Zhao</h3>
 					<hr>
 					<p>I've known Trevor for the last seven months but I felt I like knowing him forever. 
 						We've worked on the same team on several projects and he out performed everyone by going for the extra miles. 
 						He is not afraid of picking up a task that he has no clue of where to begin and yet he came out the other end glorious! He mastered Tableau in record time, this alone shows his excellent ability of adapting new skills. Whoever have him as his teammate will appreciate his enthusiasm, dedication, and openness.</p>
 				</div>
 		
-				<!-- <div class="grid-2">
-					<img src="img/re.png">
-					<h2>Their Name</h2>
-					<p>You can use this as a place to put recommendations, accolades and testimonials</p>
-				</div> -->
+				<div class="grid-2">
+					<img src="static/images/ediya.jfif">
+					<br>
+					<h3>Ediya Mankaeva</h3>
+					<hr>
+					<p>It is my pleasure and honor to recommend Trevor for the role of Data Analyst. 
+						I have worked with Trevor on several projects, where he used his excellent leadership skills to deliver spectacular results. 
+						I am confident that Trevor’s exceptional skills, professional experience, and personal qualities will make his a powerful asset at any company. 
+						Trevor’s extraordinary focus and strategic way of thinking always made him a stand-out member of the team. Whenever there are problems or flaws in the project process, he showcases his super analytical qualities to quickly identify the issue and deal with it before it can become too serious.
+					</p>
+					<br>
+					<p>Trevor has my highest recommendation for Data Analyst position. 
+						I have no doubt he will make a strong addition to any company team.</p>
+				</div>
 			</div>
 		</section>
 	</div> <!-- End container-->
 	
 	<!-- Spotlight -->
 	<section class="spotlight">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="grid-3">
-					<img src="static/images/Spotify_Analysis.PNG">
+					<img src="static/images/Spotify_Analysis.PNG" width="100%" height="100%" >
 				</div>
 				<div class="grid-3">
 					<h1>Python Web Application</h1>
+					<h4>Spotify Analysis</h4>
 					<p>The Music industry has always been changing. Each 10-20 years we see a huge shift of medium of delivery revolutionized with newer and better technologies. These mini-revolutions affected not only musicians and listeners, they also changed our society in fundamental economic and cultural way.
 					My Team and I looked into one specific aspect of this paradigm shift phenomenon – Spotify. A tiny Swedish company run by a 20-some year-old Daniel Ek overtook the industry by storm. In less than 10 years, they become the No.1 music provider of all media sources.
 					We looked into the business data as well as its API to understand its various functions. This website is the showcase of several visualization techniques we deployed to demonstrate Spotify’s data.</p>
@@ -127,22 +141,45 @@
 		</div>
 	</section>
 	
-	
+	<hr>
 	<!-- New container-->
 	<div class="container">
-	
-		<section class="education">	
-			<h2>Data Analytics & Visualization Certification from the University of Texas at Austin</h2>
-		</section>
+		
+		<!-- Education Block-->
+			<section class="education">
+				<div class="row">
+					<h2 class="center">Education & Certification</h2>
+				</div>
+				<div class="row">
+						<p class="center">Data Analytics & Visualization Certification from the University of Texas at Austin</p>
+					</div>
+				<div class="row">
+					<p class="center">B.S. Civil Engineering from Brigham Young University in Provo, Utah.</p>
+				</div>
+				<div class="row">
+					<p class="center">Tableau Desktop Specialist Certification: Tableau Software, Inc., Austin, Texas</p>
+				</div>
+			</section>
+
+		
 		<!-- <section class="education">	
 			<h2>B.S. Civil Engineering from Brigham Young University in Provo, Utah.</h2>
 		</section> -->
-		
+		<hr>
+
+		<section class="skills"> 
+			<!--List of skills-->
+			<h2 class="center">Skills</h2>
+			<p class="center">Web Applications • API’s Interactions • Database Development • Business Development • Inventory Systems • Statistical Modeling • Machine Learning • Python • JavaScript • SQL • Tableau • Flask • HTML • CSS • VBA • NoSQL • R • D3 • Geomapping • Advanced MS Excel • Advanced MS Access • GitHub • MS Office Suite </p>
+		</section>
 		
 		<hr>
 			
 		<!--Experience Tables-->
 		<section class="experience">
+			<div class="row">
+				<h2 class="center">Work Experience</h2>
+			</div>
 			<div class="row">
 				<div class="grid-2">
 					<h2>Matkin Hoover Engineering & Surveying</h2>
@@ -223,45 +260,31 @@
 		
 		<hr>
 		
-		<section>
-			<!--List of skills-->
-			<div class="row">
-				<div class="grid-2">
-					<h1>Skills</h1>
-					<ul>
-						<li>Python</li>
-						<li>Tableau</li>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>Javascript</li>
-						
-						
-						<li>Git</li>
-					</ul>
-				</div>
-				
-				<div class="grid-4">
-					<h1>In Conclusion</h1>
-					<p>
-						This is a good spot to highlight experiance and skills. Make sure to include a call to action like a link to your website, or your email address.
-						If you find bugs, want features, or have questions, feel free to submit an <a href="https://github.com/philipcdavis/responsive-resume/issues">issue</a>. You are free to use without attribution.
-						If you're ok sharing, I would love seeing what you make! Shoot me an
-						<a href="mailto:tjkulbeth@gmail.com" target="_top">email</a> or
-						<a href="http://www.twitter.com/philipcdavis">tweet</a> at me.
-					</p>
-				</div>
+		<section>	
+			<h1 class="center">Contact Information</h1>
+			<hr>
+			<p class="center">
+			Phone: <a href="tel:+12105771267">210-577-1267</a> <br>
+			Email: <a href="mailto:tjkulbeth@gmail.com">tjkulbeth@gmail.com</a> <br>
+			<!-- LinkedIn: <a href="https://www.linkedin.com/in/trevor-kulbeth-481b4443/">https://www.linkedin.com/in/trevor-kulbeth-481b4443/</a> <br> -->
+			GitHub: <a href="https://github.com/tjkulbeth">https://github.com/tjkulbeth</a>
+			</p>
+			<div class="center">
+					<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+					<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="trevor-kulbeth-481b4443"><a class="LI-simple-link" href='https://www.linkedin.com/in/trevor-kulbeth-481b4443?trk=profile-badge'>Trevor Kulbeth</a></div>
 			</div>
 		</section>
 		
-		
-		
-		<!--Footer-->
-		<footer class="center">
-			<hr>
-			<span>&copy; Trevor Kulbeth 2019</span>
-		</footer>
-		
 	</div><!-- End Container -->
-	
+
+	<!--Footer-->
+<footer class="center">
+	<hr>
+	<span>&copy; Trevor Kulbeth 2019</span>
+</footer>
+
 </body>
+
+
+
 </html>

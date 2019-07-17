@@ -1,6 +1,8 @@
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
+
+#top-jumbotron { margin-bottom: 0; }
  
 body {
   font: 100% sans-serif;
@@ -106,7 +108,11 @@ footer hr {
 }
 
 .center {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
   text-align: center;
+  
 }
 
 @media screen and (min-width: 50em) {
@@ -160,7 +166,10 @@ footer hr {
 }
 
 #image {
-  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  border-radius: 10px;
 }
 
 .grid-1,
@@ -196,10 +205,11 @@ footer hr {
   width: 50%;
 }
 
-.gallery a img {
-  -webkit-transform: translateZ(0); /* Fix chrome pixel shift */
-  transition: opacity .2s ease;
-  opacity: 1;
+.gallery img {
+  /* -webkit-transform: translateZ(0); Fix chrome pixel shift */
+  /* transition: opacity .2s ease; */
+  /* opacity: 1; */
+  border-radius: 3px;
 }
 
 .gallery a img:hover {
@@ -215,7 +225,7 @@ footer hr {
 
 /* Experience */
 .experience [class*="row"] {
-  border-bottom: dotted 1px #ccc;
+  border-bottom: solid 1px #ccc;
   padding-top: 1em;
   padding-bottom: 1em;
 }
@@ -278,7 +288,7 @@ footer hr {
 
 /* Spotlight */
 .spotlight {
-  background-color: #f3e2d8;
+  background-color: #f3e2d8af;
   padding: 3em 1em;
   margin-top: 3em;
   margin-bottom: 3em;
@@ -286,8 +296,8 @@ footer hr {
 }
 
 .spotlight img {
-  width: 60%;
-  max-width: 250px;
+  width: 100%;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: block;
